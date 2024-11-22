@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
         }
         public phieunhap()
         {
-
+                //commit
         }
     }
     public class hoadon:IDisposable
