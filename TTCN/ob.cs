@@ -71,7 +71,7 @@ namespace WindowsFormsApp1
         }
         public hoadon()
         {
-
+            string id;
         }
         public void Dispose()
         {
