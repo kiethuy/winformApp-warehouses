@@ -78,7 +78,7 @@ namespace WindowsFormsApp1
         }
          ~hoadon()
         {
-
+            ///conflict
         }
     }
    public partial class phieuxuat:IDisposable  {
