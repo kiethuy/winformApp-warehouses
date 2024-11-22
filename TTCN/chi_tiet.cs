@@ -59,14 +59,15 @@ namespace WindowsFormsApp1
                     loadGridfullChitiet(dataGridViewchitiet);
                     command.Parameters.Clear();
                 }
-                else { 
+                else 
+                { 
                     MessageBox.Show("them dl thất bại");
                     foreach(SqlParameter  a in command.Parameters)
                     {
                         MessageBox.Show(a.ParameterName, a.Value.ToString());
                     }
                 
-                        }
+                }
             }
         }
 

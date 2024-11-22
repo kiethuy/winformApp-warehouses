@@ -50,7 +50,8 @@ namespace WindowsFormsApp1
         }
         public phieunhap()
         {
-
+            string id;
+            int amount;
         }
     }
     public class hoadon:IDisposable
