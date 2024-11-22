@@ -28,7 +28,7 @@ namespace SqlServerTypes
             LoadNativeAssembly(nativeBinaryPath, "msvcr120.dll");
             LoadNativeAssembly(nativeBinaryPath, "SqlServerSpatial140.dll");
         }
-
+///commetn
         private static void LoadNativeAssembly(string nativeBinaryPath, string assemblyName)
         {
             var path = Path.Combine(nativeBinaryPath, assemblyName);
