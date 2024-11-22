@@ -50,7 +50,8 @@ namespace WindowsFormsApp1
         }
         public phieunhap()
         {
-                //commit
+            string id;
+            int amount;
         }
     }
     public class hoadon:IDisposable
@@ -70,7 +71,7 @@ namespace WindowsFormsApp1
         }
         public hoadon()
         {
-
+            string id;
         }
         public void Dispose()
         {
