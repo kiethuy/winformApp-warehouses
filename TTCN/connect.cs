@@ -136,6 +136,7 @@ namespace WindowsFormsApp1
             }
         }
     }
+    //stored procedure
     class exec
     {
         static public bool execProc(SqlCommand command,SqlConnection Connect, List<TextBox> groupTextBox,user User,string ProcName)
