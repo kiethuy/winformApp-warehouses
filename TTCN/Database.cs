@@ -49,6 +49,9 @@ namespace WindowsFormsApp1
         }
 
     }
+    /// <summary>
+    /// Fill Data that's queried from database in datatable
+    /// </summary>
     class handleDatagridview
     {
         static public DataTable DataSetDatabase(string query, SqlConnection connection)
