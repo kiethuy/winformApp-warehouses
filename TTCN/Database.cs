@@ -82,7 +82,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-               
+               //comment code mới....
             }
             return tong.ToString();
 
